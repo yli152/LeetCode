@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Leetcode
 {
+    //from last element starts / use flag to check
     public class PlusOneSolution
     {
         public int[] PlusOne(int[] digits) {
