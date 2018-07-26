@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Leetcode
 {
+    //Sorted Array-->Binary Search / return left
     public class SearchInsertPositionSolution
     {
         public int SearchInsert(int[] nums, int target) {
