@@ -8,7 +8,7 @@ namespace Leetcode
 {
     public class ValidPalindromeIISolution
     {
-        //recursive with individually IsPalindrome function
+        //recursive with individually IsPalindrome function IsPalindrome(s, left, right - 1) || IsPalindrome(s, left + 1, right)
         public bool ValidPalindrome(string s) {
             int len = s.Length;
             int left = -1;
