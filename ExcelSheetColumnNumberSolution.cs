@@ -9,6 +9,9 @@ namespace Leetcode
     public class ExcelSheetColumnNumberSolution
     {
         //sum *= 26; sum += c - 'A' + 1;
+        //"B" = 2
+        //"BC" = (2)26 + 3
+        //"BCM" = (2(26) + 3)26 + 13
         public int titleToNumber(string s) {
             if (s == null) {
                 return -1;
