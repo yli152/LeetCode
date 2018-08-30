@@ -51,6 +51,9 @@ namespace Leetcode
                     }
                 }
                 else {
+                    if (dc.ContainsValue(t[i])) {
+                        return false;
+                    } 
                     dc[s[i]] = t[i];
                 }
             }
