@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Leetcode
 {
+    //Bool Array
     public class DesignHashSetSolution
     {
         bool[] arr;
